@@ -7,7 +7,7 @@ export default defineConfig({
  schema: "./src/db/schema/*",
   driver: 'pg',
   dbCredentials: {
-    connectionString: process.env.VERCEL_DATABASE_URL!,
+    connectionString: process.env.POSTGRES_URL!,
   },
   verbose: true,
   strict: true,

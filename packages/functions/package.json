@@ -7,12 +7,15 @@
     "typecheck": "tsc -noEmit"
   },
   "devDependencies": {
+    "@aws-sdk/client-s3": "^3.540.0",
+    "@aws-sdk/s3-request-presigner": "^3.540.0",
     "@types/aws-lambda": "^8.10.136",
     "@types/node": "^20.11.30",
     "sst": "^2.41.4",
     "vitest": "^1.4.0"
   },
   "dependencies": {
+    "drizzle-orm": "^0.30.6",
     "hono": "^4.1.5"
   }
 }
